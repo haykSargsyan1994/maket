@@ -1,0 +1,92 @@
+.menu{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li{
+  margin: 20px 55px;
+  font-size: 25px;
+  border: 2px solid red;
+  height: 45px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active{
+  background-color: salmon;
+  color: aliceblue;
+}
+
+.menuBox{
+  display: flex;
+}
+
+.menuBoxbutton {
+  width: 150px;
+  height: 50px;
+  margin-top: 35px;
+  background-color: bisque;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.countryInp{
+  border-radius: 15px;
+  height: 35px;
+  font-size: 16px;
+}
+
+.countryBut{
+  width: 150px;
+  height: 40px;
+  font-size: 25px;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.menu1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu1 li{
+  margin: 20px 50px;
+  font-size: 21px;
+  border: 2px solid brown;
+  height: 41px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu1Button{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  background-color: burlywood;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu1 li:hover .menu1Button{
+  display: block;
+}
+
+.editBut{
+  margin-left: 10px;
+}
+
+.editInp{
+  width: 120px;
+}
